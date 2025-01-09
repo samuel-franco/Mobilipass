@@ -1,2 +1,2 @@
 # Mobilipass
-Projeto Recode Pro Pesso com deficiência 
+Projeto Recode Pro Pessoa com deficiência 
