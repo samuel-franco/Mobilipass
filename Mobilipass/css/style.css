@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-image: url('/img/imagem-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover, 100px;
+    background-position: center;
+}
+
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+.container-barra-contato {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+
+.barra-contato-dados {
+    display: flex;
+    padding: 8px;
+    gap: 30px;
+}
+
+
+.barra-contato-icones {
+    display: flex;
+    padding: 8px;
+    gap: 30px;
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.barra-pesquisa {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.barra-pesquisa form {
+    display: flex;
+    justify-content: center;
+}
+
+
+.campo-pesquisa {
+    width: 450px;
+    height: 30px;
+}
+
+
+
+h1 {
+    font-size: 45px;
+    color: #fff;
+}
+
+
+p {
+    font-size: 23px;
+    color: #fff;
+    padding: 10px;
+}
+
