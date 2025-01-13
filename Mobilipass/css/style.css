@@ -2,20 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    
 }
  
 body {
+    font-family: sans-serif; /* Escolha uma fonte adequada */
+    margin: 0;
+    padding: 0;
+    background-color: #404040; /* Cor de fundo */
     background-position: center, ;
     background-repeat: no-repeat;
     background-size: cover, 200%;
     background-image: url('/Mobilipass/img/imagem-fundo.jpg');
 }
 
- 
- 
+main {
+    border: 1px solid #ccc;
+    margin-top: 150px;
+    text-align: center;
+    padding: 120px;
+    margin-top: 1px;
+}
+
+body h1 {
+    font-family: nunito;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+body h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+    animation-name: slideInDown; 
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
 .barra-contato {
     display: flex;
     justify-content: space-between;
@@ -30,24 +57,22 @@ body {
     width: 8%;
 }
 
-.barra-contato-dados{
+.barra-contato-dados {
     display: flex;
     justify-content: center;
     gap: 50px;
     font-size: 14px;
     color: aliceblue;
-    
-   
 }
-.barra-contato-icones{
+
+.barra-contato-icones {
     display: flex;
     justify-content: flex-end;
     gap: 50px;
-    color: aliceblue;
-    
+    color: aliceblue;  
 }
 
-.barra-contato-icones:hover{
+.barra-contato-icones:hover {
     background-color: aqua;
 }
 
@@ -57,33 +82,25 @@ body {
     justify-content: space-between;
     font-size: 20%;
     color: aliceblue;
-    
-
+    margin-right: 50px;
 }
 
 .atalhos-icones{
     display: flex;
     gap: 20px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     color: aliceblue;   
 }
 
-#botao{
+#botao {
     border-radius:45em;
     height: 30px;
     width:8em;
     background-color: lawngreen;
-}
-
-h1 {
-    font-weight: 800px;
-    font-size: 50px;
-    color: #fff;
-}
-
-p {
-    color: #fff;
+    transform: translateY(-20%);
+    top: 50%;
+    border: none;
 }
 
 .texto {
@@ -91,33 +108,49 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    margin-top: 9%;
+    gap: 1px;
+    margin-top: 8%;
 }
 
-
 .container-pesquisar {
-    display: flex;
-    background-color: #fff;
-    border-radius: 16px;
-    padding: 10px;
-    cursor: pointer;
-    border: 1px solid #60a5fa;
+    position: relative;
+    max-width: 800px;
+    margin: 6px auto;
+    width: 100%;
 }
 
 .barra-pesquisa {
-    background: none;
-    width: 1000px;
-    height: 50px;
-    border-radius: 30px;
-    border: 0;
-    outline: 0;
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border-radius: 50rem;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    height: 57px;
 }
 
-.Pesquisar {
-    background-color: blueviolet;
+.pesquisar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px 30px;
+    right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    text-transform: none;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #2563eb;
     color: #fff;
+    border: none;
+    transition: .5s;
+    font-size: 16px;
     cursor: pointer;
-    border-radius: 22px;
-    width: 110px;
+}
+
+.pesquisar:hover{
+    background-color: #2e1065;
 }
