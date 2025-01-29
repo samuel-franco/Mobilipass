@@ -116,6 +116,7 @@
 .card{
     margin: 0;
     padding: 0;
+    jus
 }
 .rodape{
     background-color: #343a40;
@@ -182,7 +183,16 @@
     font-style: italic;
 
 }
-@media(max-width:1200px){
+
+.texto_consultoria1{
+    color: beige;
+ }
+
+ .imagem_consultoria{
+    width: 550px;
+    height: 100%;
+
+@media(max-width:1200px)
     .cabecalho {
         padding: 10% ;
     }
@@ -195,4 +205,8 @@
     }
     .apresentacao-conteudo{
         width: auto;
-    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    }
+    
+   
+
+  
