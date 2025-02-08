@@ -13,12 +13,7 @@
     max-height: 60px;
 }
 
-.background-container {
-    position: relative; /* Necessário para posicionar o pseudo-elemento */
-    width: 100%;
-    height: 520px; /* Altura desejada */
-    overflow: hidden; /* Evita que a imagem vaze do contêiner */
-  }
+
   
   .background-container::before {
     content: "";
@@ -181,16 +176,33 @@
     padding: 20px;
     height: 200px;
     font-style: italic;
-
 }
+
+.background-container1 {
+    background-image: url("img/mapa.jpg");
+    position: relative; 
+    width: 100%;
+    height:40rem; 
+    overflow: hidden; 
+  }
 
 .texto_consultoria1{
     color: beige;
  }
 
+
+.container_consultoria{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
  .imagem_consultoria{
     width: 550px;
     height: 100%;
+
+
 
 @media(max-width:1200px)
     .cabecalho {
