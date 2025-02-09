@@ -1,7 +1,6 @@
-# Projeto em grupo Recode Pro IA - 2024/2025 - Tema: Pessoa com deficiência 
+# Projeto em grupo Recode Pro IA - 2024/2025
 
-# 🚀 Agencia de viagens - mobilipass.com
-
+# 🚀 Tema: Pessoa com deficiência
 ![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-brightgreen)
 ![Licença](https://img.shields.io/badge/License-MIT-blue)
 
@@ -9,9 +8,12 @@
 
 Este repositório tem como objetivo mostrar o desenvolvimento do projeto da squad 2 do curso da Recode Pro IA turma 2024/2025.
 
-O projeto consiste na criação de um site para pesquisa de locais com acessibilidiade, utilizando HTML, CSS e o framework Bootstrap. O objetivo é desenvolver uma plataforma responsiva, com um design atrativo e funcional, que ofereça uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops. O site terá um front-end bem estruturado e, futuramente, será integrado com um back-end para gerenciar funcionalidades mais complexas, como, autenticação de usuários e gerenciamento de serviços.
+O projeto consiste na criação de um site para pesquisa de locais com acessibilidiade, utilizando HTML, CSS e o framework Bootstrap. O objetivo é desenvolver uma plataforma responsiva, com um design atrativo e funcional, que ofereça uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops. O site terá um front-end bem estruturado e, futuramente, será integrado com um back-end para gerenciar funcionalidades mais complexas, como, autenticação de usuários e gerenciamento de serviços. 
+ 
 
 ## ✨ Demonstração
+
+O site terá o seguinte domínio fantasia www.mobilipass.com.br
 
 Pagina inicial Home
 ![Página 1 - Home](https://github.com/user-attachments/assets/53b608c7-a378-4847-8946-91f69b913a66)
@@ -27,7 +29,6 @@ Página Login/Cadastro
 
 Página Contato
 ![Página 5- Contato](https://github.com/user-attachments/assets/c2b6cba5-5a69-4f9b-93dc-fa01348e2437)
-
 
 
 ## 🛠️ Tecnologias Utilizadas
