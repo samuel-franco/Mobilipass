@@ -8,20 +8,20 @@
     text-decoration: none;
 }
 
-.imagem_logo{
+.imagem_logo {
     max-width: 90%;
     height: auto;
     max-height: 60px;
 }
 
 .background-container {
-    position: relative; /* Necessário para posicionar o pseudo-elemento */
+    position: relative;
     width: 100%;
-    height: 520px; /* Altura desejada */
-    overflow: hidden; /* Evita que a imagem vaze do contêiner */
-  }
-  
-  .background-container::before {
+    height: 520px;
+    overflow: hidden;
+}
+
+.background-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -33,19 +33,19 @@
     background-position: center;
     opacity: 1;
     z-index: -1;
-  }
-  
-  .titulo{
-    position: relative; 
-    z-index: 1; 
-    color: white; 
+}
+
+.titulo {
+    position: relative;
+    z-index: 1;
+    color: white;
     padding: 12%;
     display: flex;
     flex-direction: column;
-    align-items: center; 
- }
+    align-items: center;
+}
 
-  .barra-contato-dados {
+.barra-contato-dados {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -57,13 +57,13 @@
     display: flex;
     justify-content: flex-end;
     gap: 50px;
-    color: aliceblue;  
+    color: aliceblue;
 }
 
 #botao {
-    border-radius:none;
+    border-radius: none;
     height: 30px;
-    width:8em;
+    width: 8em;
     background-color: lawngreen;
     transform: translateY(-20%);
     top: 50%;
@@ -101,12 +101,11 @@
     transform: translateY(-50%);
     padding: 15px 30px;
     right: 10px;
-    
     background-color: blue;
     box-sizing: border-box;
     border-radius: 25px;
     text-align: center;
-    color:white;
+    color: white;
     border: none;
     transition: .5s;
     font-size: 16px;
@@ -114,57 +113,66 @@
     justify-content: space-between;
 }
 
-.card{
+.card {
     margin: 0;
     padding: 0;
 }
-.rodape{
+
+.rodape {
     background-color: #343a40;
     color: white;
     text-align: center;
     height: 60px;
     padding: 20px;
 }
+
 /* Estilização do about */
-.apresentacao{
+.apresentacao {
     background-image: url(/img/mapa.jpg);
     z-index: 0.5;
     background-size: cover;
     color: #001A6E;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5% 5%;
-    gap: 82px;  
+    gap: 82px;
 }
-.apresentacao-conteudo{
+
+.apresentacao-conteudo {
     width: 100%;
     display: flex;
-    flex-direction:column; 
+    flex-direction: column;
     gap: 10px;
 }
-.apresentacao-conteudo-titulo{
+
+.apresentacao-conteudo-titulo {
     font-size: 1.25rem;
-    font-family:var(--font-primaria);
+    font-family: var(--font-primaria);
 }
-.apresentacao-conteudo-texto{
+
+.apresentacao-conteudo-texto {
     font-size: 15px;
     font-family: var(--font-secundaria);
     text-align: justify;
 }
-.apresentacao-imagem{
+
+.apresentacao-imagem {
     width: 100%;
 }
-.apresentacao-imagem1{
+
+.apresentacao-imagem1 {
     width: 10%;
 }
-#apres{
+
+#apres {
     background-color: white;
     border-radius: 30px;
     margin: auto;
     padding: 20px;
 }
-#apres2{
+
+#apres2 {
     background-color: #5271ff;
     color: white;
     border-radius: 30px;
@@ -172,27 +180,71 @@
     padding: 20px;
     justify-content: space-between;
 }
-#apres3{
+
+#apres3 {
     background-color: white;
     border-radius: 30px;
     margin: auto;
     padding: 20px;
     height: 200px;
     font-style: italic;
-
 }
-@media(max-width:1200px){
-    .cabecalho {
-        padding: 10% ;
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .cabecalho { /* Se você tiver um cabeçalho */
+        padding: 10%;
     }
-    .cabecalho__menu{
+
+    .cabecalho__menu { /* Se você tiver um menu */
         justify-content: center;
     }
-    .apresentacao{
+
+    .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 20px; /* Reduz o gap em telas menores */
     }
-    .apresentacao-conteudo{
+
+    .apresentacao-conteudo {
         width: auto;
+    }
+
+    .barra-contato-dados,
+    .barra-contato-icones {
+        flex-direction: column; /* Alinha verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
+        gap: 10px; /* Espaçamento menor */
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        padding: 5%; /* Ajusta o padding do título */
+    }
+
+    .container-pesquisar {
+        max-width: 90%; /* Largura do campo de pesquisa */
+    }
+
+    .apresentacao-conteudo-titulo {
+        font-size: 1rem; /* Tamanho do título menor */
+    }
+
+    .apresentacao-conteudo-texto {
+        font-size: 14px; /* Tamanho do texto menor */
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        padding: 3%; /* Ajusta o padding do título */
+    }
+    .barra-pesquisa {
+        height: 45px; /* Altura menor para o campo de pesquisa */
+    }
+    .pesquisar {
+        padding: 10px 20px; /* Padding menor para o botão pesquisar */
+        font-size: 14px; /* Tamanho da fonte menor */
     }
 }

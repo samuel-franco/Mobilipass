@@ -9,120 +9,121 @@
 }
 
 .imagem_logo {
-  max-width: 90%;
-  height: auto;
-  max-height: 60px;
+    max-width: 90%;
+    height: auto;
+    max-height: 60px;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-image: url(/img/mapa.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(/img/mapa.jpg);
 }
 
 header {
-  position: sticky; /* Fixa a navbar no topo */
-  top: 0;
-  z-index: 100; /* Garante que a navbar fique acima de outros elementos */
-  width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
 
 main {
-  flex: 1; /* Ocupa o espaço disponível */
-  display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adicione padding para telas menores */
 }
 
 .container {
-  max-width: 500px;
-  background: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto; /* Centraliza verticalmente e adiciona margem */
 }
 
 h1 {
-  margin-bottom: 20px;
-  color: #344CB7;
+    margin-bottom: 20px;
+    color: #344CB7;
 }
 
 form {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 form h2 {
-  margin-bottom: 10px;
-  color: #555;
+    margin-bottom: 10px;
+    color: #555;
 }
 
 label {
-  display: block;
-  margin: 10px 0 5px;
-  text-align: left;
-  color: #666;
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #666;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
 }
 
 input:focus {
-  border-color: #5271ff;
-  outline: none;
-  box-shadow: 0 0 3px rgba(123, 110, 246, 0.4);
+    border-color: #5271ff;
+    outline: none;
+    box-shadow: 0 0 3px rgba(123, 110, 246, 0.4);
 }
 
-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #5271ff;
-  color: #fff;
-  font-size: 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+button.btn-entrar {
+    background-color: #007bff;
+    color: #fff;
 }
 
-button:hover {
-  background-color: #001A6E;
+button.btn-cadastrar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.btn-entrar:hover {
+    background-color: #0056b3;
+}
+
+button.btn-cadastrar:hover {
+    background-color: #0056b3;
 }
 
 .divider {
-  margin: 15px 0;
-  text-align: center;
-  color: #aaa;
+    margin: 15px 0;
+    text-align: center;
+    color: #aaa;
 }
 
 #rodape {
-  background-color: #343a40;
-  color: white;
-  text-align: center;
-  height: 60px;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+    position: relative; /* Mudado para relative */
+    bottom: 0;
+    width: 100%;
 }
 
-
 .rodape {
-  background-color: #343a40;
-  color: white;
-  text-align: center;
-  height: 60px;
-  padding: 20px;
-  width: 100%; /* Largura total da tela */
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
 }
 
 /* Estilização do about */
@@ -131,40 +132,47 @@ button:hover {
     z-index: 0.5;
     background-size: cover;
     color: #001A6E;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5% 5%;
-    gap: 82px;  
+    gap: 82px;
 }
+
 .apresentacao-conteudo {
     width: 100%;
     display: flex;
-    flex-direction:column; 
+    flex-direction: column;
     gap: 10px;
 }
-.apresentacao-conteudo-titulo{
+
+.apresentacao-conteudo-titulo {
     font-size: 1.25rem;
-    font-family:var(--font-primaria);
+    font-family: var(--font-primaria);
 }
-.apresentacao-conteudo-texto{
+
+.apresentacao-conteudo-texto {
     font-size: 15px;
     font-family: var(--font-secundaria);
     text-align: justify;
 }
-.apresentacao-imagem{
+
+.apresentacao-imagem {
     width: 100%;
 }
-.apresentacao-imagem1{
+
+.apresentacao-imagem1 {
     width: 10%;
 }
-#apres{
+
+#apres {
     background-color: white;
     border-radius: 30px;
     margin: auto;
     padding: 20px;
 }
-#apres2{
+
+#apres2 {
     background-color: #5271ff;
     color: white;
     border-radius: 30px;
@@ -172,27 +180,56 @@ button:hover {
     padding: 20px;
     justify-content: space-between;
 }
-#apres3{
+
+#apres3 {
     background-color: white;
     border-radius: 30px;
     margin: auto;
     padding: 20px;
     height: 200px;
     font-style: italic;
-
 }
-@media(max-width:1200px){
-    .cabecalho {
-        padding: 10% ;
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%; /* Largura máxima ajustada */
+        margin: 20px auto; /* Centraliza em telas menores */
     }
-    .cabecalho__menu{
-        justify-content: center;
+
+    .apresentacao {
+        flex-direction: column; /* Layout em coluna */
+        gap: 20px;
     }
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 5%;
+
+    .apresentacao-conteudo {
+        text-align: center;
     }
-    .apresentacao-conteudo{
-        width: auto;
+
+    #rodape {
+        position: relative; /* Rodapé no fluxo normal */
+    }
+
+    main {
+        align-items: flex-start; /* Alinha o conteúdo ao topo em telas menores */
+        padding: 10px; /* Ajusta o padding */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 95%; /* Largura máxima ajustada */
+    }
+
+    .apresentacao-conteudo-titulo {
+        font-size: 1rem;
+    }
+
+    .apresentacao-conteudo-texto {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 5px; /* Ajusta o padding */
     }
 }
