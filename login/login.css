@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+}
+
+.imagem_logo {
+  max-width: 90%;
+  height: auto;
+  max-height: 60px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(/img/mapa.jpg);
+}
+
+header {
+  position: sticky; /* Fixa a navbar no topo */
+  top: 0;
+  z-index: 100; /* Garante que a navbar fique acima de outros elementos */
+  width: 100%;
+}
+
+main {
+  flex: 1; /* Ocupa o espaço disponível */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.container {
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #344CB7;
+}
+
+form {
+  margin-top: 15px;
+}
+
+form h2 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+  color: #666;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #5271ff;
+  outline: none;
+  box-shadow: 0 0 3px rgba(123, 110, 246, 0.4);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5271ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #001A6E;
+}
+
+.divider {
+  margin: 15px 0;
+  text-align: center;
+  color: #aaa;
+}
+
+#rodape {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  height: 60px;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.rodape {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  height: 60px;
+  padding: 20px;
+  width: 100%; /* Largura total da tela */
+}
+
+/* Estilização do about */
+.apresentacao {
+    background-image: url(/img/mapa.jpg);
+    z-index: 0.5;
+    background-size: cover;
+    color: #001A6E;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5%;
+    gap: 82px;  
+}
+.apresentacao-conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction:column; 
+    gap: 10px;
+}
+.apresentacao-conteudo-titulo{
+    font-size: 1.25rem;
+    font-family:var(--font-primaria);
+}
+.apresentacao-conteudo-texto{
+    font-size: 15px;
+    font-family: var(--font-secundaria);
+    text-align: justify;
+}
+.apresentacao-imagem{
+    width: 100%;
+}
+.apresentacao-imagem1{
+    width: 10%;
+}
+#apres{
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+}
+#apres2{
+    background-color: #5271ff;
+    color: white;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+#apres3{
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+    height: 200px;
+    font-style: italic;
+
+}
+@media(max-width:1200px){
+    .cabecalho {
+        padding: 10% ;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao-conteudo{
+        width: auto;
+    }
+}
