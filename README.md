@@ -9,6 +9,9 @@
 Este repositório tem como objetivo mostrar o desenvolvimento do projeto da squad 2 do curso da Recode Pro IA turma 2024/2025.
 
 O projeto consiste na criação de um site para pesquisa de locais com acessibilidiade, utilizando HTML, CSS e o framework Bootstrap. O objetivo é desenvolver uma plataforma responsiva, com um design atrativo e funcional, que ofereça uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops. O site terá um front-end bem estruturado e, futuramente, será integrado com um back-end para gerenciar funcionalidades mais complexas, como, autenticação de usuários e gerenciamento de serviços. 
+
+![yucel-moran-Ky9JHrdvb1o-unsplash(1)](https://github.com/user-attachments/assets/40a41883-10a6-4a5a-83bb-d5d7ffc2348b)
+
  
 
 ## ✨ Demonstração
