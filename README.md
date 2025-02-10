@@ -23,7 +23,7 @@ O desafio escolhido, problema identificado e público-alvo: Criar uma solução 
 
 ## ✨ Demonstração
 
-O site terá o seguinte domínio fantasia www.mobilipass.com.br
+O site terá o seguinte domínio www.mobilipass.com.br
 
 Pagina inicial Home
 ![Página 1 - Home](https://github.com/user-attachments/assets/53b608c7-a378-4847-8946-91f69b913a66)
