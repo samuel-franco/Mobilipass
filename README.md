@@ -119,7 +119,7 @@ Modelo Lógico
 
     Benefício: Melhora a usabilidade do site, permitindo que os usuários encontrem rapidamente o que procuram.
 
-## 🤝 Como Contribuir (No momnento, não estou aceitando contribuições*)
+## 🤝 Como Contribuir
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
