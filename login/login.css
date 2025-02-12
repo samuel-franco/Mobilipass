@@ -106,130 +106,56 @@ button.btn-cadastrar:hover {
     color: #aaa;
 }
 
-#rodape {
+.rodape-footer {
     background-color: #343a40;
     color: white;
     text-align: center;
     height: 60px;
     padding: 20px;
-    position: relative; /* Mudado para relative */
-    bottom: 0;
-    width: 100%;
+    height: auto;
 }
 
-.rodape {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    height: 60px;
-    padding: 20px;
-    width: 100%;
+.rodape-footer .container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Estilização do about */
-.apresentacao {
-    background-image: url(/img/mapa.jpg);
-    z-index: 0.5;
-    background-size: cover;
-    color: #001A6E;
+.rodape-footer .col-12 { /* Estilo para a coluna que contém o copyright e os ícones */
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha, se necessário */
+}
+
+.rodape-footer .copyright {
+    margin: 0 10px; /* Espaço entre o copyright e os ícones */
+}
+
+.rodape-footer .social-icons {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5% 5%;
-    gap: 82px;
+    justify-content: center;
+    margin: 0 10px; /* Espaço entre os ícones e o copyright */
 }
 
-.apresentacao-conteudo {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.apresentacao-conteudo-titulo {
-    font-size: 1.25rem;
-    font-family: var(--font-primaria);
-}
-
-.apresentacao-conteudo-texto {
-    font-size: 15px;
-    font-family: var(--font-secundaria);
-    text-align: justify;
-}
-
-.apresentacao-imagem {
-    width: 100%;
-}
-
-.apresentacao-imagem1 {
-    width: 10%;
-}
-
-#apres {
-    background-color: white;
-    border-radius: 30px;
-    margin: auto;
-    padding: 20px;
-}
-
-#apres2 {
-    background-color: #5271ff;
+.rodape-footer .social-icons a {
     color: white;
-    border-radius: 30px;
-    margin: auto;
-    padding: 20px;
-    justify-content: space-between;
+    font-size: 20px;
+    margin: 0 5px; /* Espaço entre os ícones */
+    transition: color 0.3s;
 }
 
-#apres3 {
-    background-color: white;
-    border-radius: 30px;
-    margin: auto;
-    padding: 20px;
-    height: 200px;
-    font-style: italic;
+.rodape-footer .social-icons a:hover {
+    color: #007bff;
 }
 
-/* Media Queries para Responsividade */
+.rodape-footer .social-icons i {
+    width: 30px;
+    height: 30px;
+}
+
 @media (max-width: 768px) {
-    .container {
-        max-width: 90%; /* Largura máxima ajustada */
-        margin: 20px auto; /* Centraliza em telas menores */
-    }
-
-    .apresentacao {
-        flex-direction: column; /* Layout em coluna */
-        gap: 20px;
-    }
-
-    .apresentacao-conteudo {
-        text-align: center;
-    }
-
-    #rodape {
-        position: relative; /* Rodapé no fluxo normal */
-    }
-
-    main {
-        align-items: flex-start; /* Alinha o conteúdo ao topo em telas menores */
-        padding: 10px; /* Ajusta o padding */
-    }
-}
-
-@media (max-width: 576px) {
-    .container {
-        max-width: 95%; /* Largura máxima ajustada */
-    }
-
-    .apresentacao-conteudo-titulo {
-        font-size: 1rem;
-    }
-
-    .apresentacao-conteudo-texto {
-        font-size: 14px;
-    }
-
-    main {
-        padding: 5px; /* Ajusta o padding */
+    .rodape-footer .social-icons a {
+        font-size: 18px;
+        margin: 0 5px;
     }
 }
