@@ -12,7 +12,7 @@ O desafio escolhido, problema identificado e público-alvo: Tema pessoa com defi
 
 O projeto consiste na criação de um site para pesquisa de locais com acessibilidiade, utilizando HTML, CSS e o framework Bootstrap. O objetivo é desenvolver uma plataforma responsiva, com um design atrativo e funcional, que ofereça uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops. O site terá um front-end bem estruturado e, futuramente, será integrado com um back-end para gerenciar funcionalidades mais complexas, como, autenticação de usuários e gerenciamento de serviços. 
 
-![yucel-moran-Ky9JHrdvb1o-unsplash(1)](https://github.com/user-attachments/assets/40a41883-10a6-4a5a-83bb-d5d7ffc2348b)
+![Screenshot 2025-02-12 at 00-14-23 Home](https://github.com/user-attachments/assets/af2909cb-039a-484b-91c8-f9658fc3e855)
 
 
 Nº do Squad: 2
@@ -82,10 +82,15 @@ nome-do-projeto/
 ### Página de cadastro,  Página de login e Conto.
 
 Modelo conceitual 
-![image](https://github.com/user-attachments/assets/8694efd3-a875-45d3-b070-3e0c9bde03ca)
+![banco de dados](https://github.com/user-attachments/assets/544e760f-084b-4d3d-a5c4-12ef837478fd)
 
 Modelo Lógico 
-![image](https://github.com/user-attachments/assets/24360f09-a506-4fb2-b929-abdcb2a13414)
+![baco de dados modelo lógico](https://github.com/user-attachments/assets/fe3c2b61-1abb-4476-ab29-c19e364acbec)
+
+Script do Banco de Dados
+![banco de dados script](https://github.com/user-attachments/assets/921041e9-1f8e-4fbd-9ded-6dbe864297aa)
+
+
 
 
 ## 🎯 Funcionalidades
