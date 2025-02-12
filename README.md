@@ -26,7 +26,7 @@ O desafio escolhido, problema identificado e público-alvo: Criar uma solução 
 O site terá o seguinte domínio www.mobilipass.com.br
 
 Pagina inicial Home
-![Página 1 - Home](https://github.com/user-attachments/assets/53b608c7-a378-4847-8946-91f69b913a66)
+![Screenshot 2025-02-12 at 00-15-40 Home](https://github.com/user-attachments/assets/7d6a934e-ec21-42d3-9861-d70473552f9b)
 
 Página Sobre
 ![Página 2 -Sobre](https://github.com/user-attachments/assets/0c274820-941e-41d5-8135-8490d2c97b8f)
