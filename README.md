@@ -136,6 +136,7 @@ Este projeto está sob a minha licença.
 Feito por 
 [Samuel Franco](https://github.com/samuel-franco)
 [Francisco Alves ](https://github.com/Fraalves)
+[Rayanne Monção ](https://github.com/rayannemoncao)
 
 <h2 id="colab">🤝 icentivadores do projeto</h2>
 
