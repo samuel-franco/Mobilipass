@@ -91,7 +91,7 @@ Modelo Lógico
 ## 🎯 Funcionalidades
 
 - [ ] Funcionalidade 1
-    1. Sistema de Reservas Integrado
+    1. Sistema Integrado
 
     Descrição: Permitir que os usuários pesquisem os locais que tenha uma acessbildaide fácil.
 
