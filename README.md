@@ -12,7 +12,7 @@ O desafio escolhido, problema identificado e público-alvo: Tema pessoa com defi
 
 O projeto consiste na criação de um site para pesquisa de locais com acessibilidiade, utilizando HTML, CSS e o framework Bootstrap. O objetivo é desenvolver uma plataforma responsiva, com um design atrativo e funcional, que ofereça uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops. O site terá um front-end bem estruturado e, futuramente, será integrado com um back-end para gerenciar funcionalidades mais complexas, como, autenticação de usuários e gerenciamento de serviços. 
 
-![Screenshot 2025-02-12 at 00-14-23 Home](https://github.com/user-attachments/assets/af2909cb-039a-484b-91c8-f9658fc3e855)
+![yucel-moran-Ky9JHrdvb1o-unsplash(1)](https://github.com/user-attachments/assets/40a41883-10a6-4a5a-83bb-d5d7ffc2348b)
 
 
 Nº do Squad: 2
@@ -26,16 +26,19 @@ O desafio escolhido, problema identificado e público-alvo: Criar uma solução 
 O site terá o seguinte domínio www.mobilipass.com.br
 
 Pagina inicial Home
-![Screenshot 2025-02-12 at 00-15-40 Home](https://github.com/user-attachments/assets/7d6a934e-ec21-42d3-9861-d70473552f9b)
+![Página 1 - Home](https://github.com/user-attachments/assets/53b608c7-a378-4847-8946-91f69b913a66)
 
 Página Sobre
-![Screenshot 2025-02-12 at 00-17-25 Sobre](https://github.com/user-attachments/assets/194bb38e-5ac0-4b90-97cd-7eed02dd59ce)
+![Página 2 -Sobre](https://github.com/user-attachments/assets/0c274820-941e-41d5-8135-8490d2c97b8f)
+
+Página Serviços
+![Página 3 - Serviços](https://github.com/user-attachments/assets/536cd06c-2180-4d14-8731-1fdf45c570e9)
 
 Página Login/Cadastro
-![Screenshot 2025-02-12 at 00-17-55 Login](https://github.com/user-attachments/assets/cdbe812b-9421-4a40-a36b-b0917d3cf168)
+![Página 4 - Cadastro-Login](https://github.com/user-attachments/assets/4dc52e9b-ce21-4954-98df-94c3348e2d51)
 
 Página Contato
-![Screenshot 2025-02-12 at 00-18-42 Contato](https://github.com/user-attachments/assets/b2c40870-de64-4611-86be-5db8f8f8612e)
+![Página 5- Contato](https://github.com/user-attachments/assets/c2b6cba5-5a69-4f9b-93dc-fa01348e2437)
 
 
 ## 🛠️ Tecnologias Utilizadas
@@ -79,15 +82,10 @@ nome-do-projeto/
 ### Página de cadastro,  Página de login e Conto.
 
 Modelo conceitual 
-![banco de dados](https://github.com/user-attachments/assets/544e760f-084b-4d3d-a5c4-12ef837478fd)
+![image](https://github.com/user-attachments/assets/8694efd3-a875-45d3-b070-3e0c9bde03ca)
 
 Modelo Lógico 
-![baco de dados modelo lógico](https://github.com/user-attachments/assets/fe3c2b61-1abb-4476-ab29-c19e364acbec)
-
-Script do Banco de Dados
-![banco de dados script](https://github.com/user-attachments/assets/921041e9-1f8e-4fbd-9ded-6dbe864297aa)
-
-
+![image](https://github.com/user-attachments/assets/24360f09-a506-4fb2-b929-abdcb2a13414)
 
 
 ## 🎯 Funcionalidades
