@@ -26,7 +26,7 @@ O desafio escolhido, problema identificado e público-alvo: Criar uma solução 
 O site terá o seguinte domínio [www.mobilipass.com.br](https://mobilipass.vercel.app/)
 
 Pagina inicial Home
-![Página 1 - Home](https://github.com/user-attachments/assets/53b608c7-a378-4847-8946-91f69b913a66)
+![Screenshot 2025-02-12 at 04-06-23 Home](https://github.com/user-attachments/assets/e1502376-83f6-447f-b00b-7aec7548b4fc)
 
 Página Sobre
 ![Página 2 -Sobre](https://github.com/user-attachments/assets/0c274820-941e-41d5-8135-8490d2c97b8f)
