@@ -23,7 +23,7 @@ O desafio escolhido, problema identificado e público-alvo: Criar uma solução 
 
 ## ✨ Demonstração
 
-O site terá o seguinte domínio [www.mobilipass.com.br](https://mobilipass.vercel.app/)
+O site terá o seguinte domínio [https://mobilipass.vercel.app/](https://mobilipass.vercel.app/)
 
 Pagina inicial Home
 ![Screenshot 2025-02-12 at 04-06-23 Home](https://github.com/user-attachments/assets/e1502376-83f6-447f-b00b-7aec7548b4fc)
