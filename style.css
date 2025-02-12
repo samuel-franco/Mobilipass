@@ -138,7 +138,50 @@
     padding: 20px;
 }
 
-/* Media Queries para outros elementos (opcional, adicione conforme necessário) */
+.rodape {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0; /* Ajuste o padding vertical */
+    height: auto; /* Altura automática para o conteúdo */
+}
+
+.rodape .container { /* Estilos para o container */
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza */
+}
+
+.rodape .copyright { /* Estilos para o texto de copyright */
+    margin-bottom: 10px; /* Espaço abaixo do texto */
+}
+
+.rodape .social-icons {
+    display: flex; /* Alinha os ícones horizontalmente */
+    justify-content: center; /* Centraliza os ícones */
+}
+
+.rodape .social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px; /* Espaço entre os ícones */
+    transition: color 0.3s; /* Transição suave na cor */
+}
+
+.rodape .social-icons a:hover {
+    color: #007bff; /* Cor ao passar o mouse */
+}
+
+.rodape .social-icons i { /* Estilos para os ícones */
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .rodape .social-icons a {
+        font-size: 18px;
+        margin: 0 8px;
+    }
+}
+
 @media (max-width: 768px) {
     .container-pesquisar {
         max-width: 90%; /* Ajusta a largura do campo de pesquisa */
@@ -151,9 +194,9 @@
 
 @media (max-width: 576px) {
     .container-pesquisar {
-        max-width: 90%; /* Ajusta a largura do campo de pesquisa */
+        max-width: 90%;
     }
     .card {
-        max-width: 90%; /* Outros ajustes para telas pequenas, se necessário */
+        max-width: 90%;
     }
 }
