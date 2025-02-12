@@ -79,10 +79,11 @@ nome-do-projeto/
 ### Página de cadastro,  Página de login e Conto.
 
 Modelo conceitual 
-![image](https://github.com/user-attachments/assets/8694efd3-a875-45d3-b070-3e0c9bde03ca)
+![banco de dados](https://github.com/user-attachments/assets/22ea85cb-d1e5-496d-a839-633af6539404)
 
 Modelo Lógico 
-![image](https://github.com/user-attachments/assets/24360f09-a506-4fb2-b929-abdcb2a13414)
+![baco de dados modelo lógico](https://github.com/user-attachments/assets/963733f3-fb29-4491-9d9a-abc7190162d8)
+
 
 
 ## 🎯 Funcionalidades
