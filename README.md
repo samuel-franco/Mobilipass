@@ -29,16 +29,13 @@ Pagina inicial Home
 ![Screenshot 2025-02-12 at 00-15-40 Home](https://github.com/user-attachments/assets/7d6a934e-ec21-42d3-9861-d70473552f9b)
 
 Página Sobre
-![Página 2 -Sobre](https://github.com/user-attachments/assets/0c274820-941e-41d5-8135-8490d2c97b8f)
-
-Página Serviços
-![Página 3 - Serviços](https://github.com/user-attachments/assets/536cd06c-2180-4d14-8731-1fdf45c570e9)
+![Screenshot 2025-02-12 at 00-17-25 Sobre](https://github.com/user-attachments/assets/194bb38e-5ac0-4b90-97cd-7eed02dd59ce)
 
 Página Login/Cadastro
-![Página 4 - Cadastro-Login](https://github.com/user-attachments/assets/4dc52e9b-ce21-4954-98df-94c3348e2d51)
+![Screenshot 2025-02-12 at 00-17-55 Login](https://github.com/user-attachments/assets/cdbe812b-9421-4a40-a36b-b0917d3cf168)
 
 Página Contato
-![Página 5- Contato](https://github.com/user-attachments/assets/c2b6cba5-5a69-4f9b-93dc-fa01348e2437)
+![Screenshot 2025-02-12 at 00-18-42 Contato](https://github.com/user-attachments/assets/b2c40870-de64-4611-86be-5db8f8f8612e)
 
 
 ## 🛠️ Tecnologias Utilizadas
