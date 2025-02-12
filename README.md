@@ -74,9 +74,7 @@ nome-do-projeto/
 └── LICENSE
 ```
 
-## 📦 Banco de dados do projeto - 
-
-### Página de cadastro,  Página de login e Conto.
+## 📦 Banco de dados do projeto
 
 Modelo conceitual 
 ![banco de dados](https://github.com/user-attachments/assets/22ea85cb-d1e5-496d-a839-633af6539404)
