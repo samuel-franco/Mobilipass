@@ -77,7 +77,7 @@ nome-do-projeto/
 ## 📦 Banco de dados do projeto
 
 Modelo conceitual 
-![banco de dados](https://github.com/user-attachments/assets/22ea85cb-d1e5-496d-a839-633af6539404)
+![imagem (19)](https://github.com/user-attachments/assets/7d6b0899-11b7-4aff-bfaa-da742dbbb049)
 
 Modelo Lógico 
 ![baco de dados modelo lógico](https://github.com/user-attachments/assets/963733f3-fb29-4491-9d9a-abc7190162d8)
