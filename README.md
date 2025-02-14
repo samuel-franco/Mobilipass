@@ -32,7 +32,7 @@ Página Sobre
 ![Screenshot 2025-02-14 at 07-19-04 Sobre](https://github.com/user-attachments/assets/ef3db275-70b1-4b39-85b3-a23384634efa)
 
 Página Login/Cadastro
-![Página 4 - Cadastro-Login](https://github.com/user-attachments/assets/4dc52e9b-ce21-4954-98df-94c3348e2d51)
+![Screenshot 2025-02-14 at 07-22-12 Login](https://github.com/user-attachments/assets/7aa2a004-f24d-4dc1-ad52-86fcd6f148a7)
 
 Página Contato
 ![Página 5- Contato](https://github.com/user-attachments/assets/c2b6cba5-5a69-4f9b-93dc-fa01348e2437)
