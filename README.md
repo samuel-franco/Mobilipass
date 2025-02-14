@@ -29,7 +29,7 @@ Pagina inicial Home
 ![Screenshot 2025-02-12 at 04-06-23 Home](https://github.com/user-attachments/assets/e1502376-83f6-447f-b00b-7aec7548b4fc)
 
 Página Sobre
-![Página 2 -Sobre](https://github.com/user-attachments/assets/0c274820-941e-41d5-8135-8490d2c97b8f)
+![Screenshot 2025-02-14 at 07-19-04 Sobre](https://github.com/user-attachments/assets/ef3db275-70b1-4b39-85b3-a23384634efa)
 
 Página Login/Cadastro
 ![Página 4 - Cadastro-Login](https://github.com/user-attachments/assets/4dc52e9b-ce21-4954-98df-94c3348e2d51)
